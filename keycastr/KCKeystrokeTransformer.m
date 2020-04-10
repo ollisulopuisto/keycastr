@@ -88,27 +88,27 @@ static NSString* kLeftTabString = @"\xe2\x87\xa4";
 			UTF8("\xe2\x87\x9f"), NSNum(121), // pgdn
 			UTF8("\xe2\x86\xa9"), NSNum(36), // return
 			UTF8("\xe2\x86\xa9"), NSNum(76), // numpad enter
-			UTF8("F1"), NSNum(122), // F1
-			UTF8("F2"), NSNum(120), // F2
-			UTF8("F3"), NSNum(99),  // F3
-			UTF8("F4"), NSNum(118), // F4
-			UTF8("F5"), NSNum(96),  // F5
-			UTF8("F6"), NSNum(97),  // F6
-			UTF8("F7"), NSNum(98),  // F7
-			UTF8("F8"), NSNum(100), // F8
-			UTF8("F9"), NSNum(101), // F9
-			UTF8("F10"), NSNum(109), // F10
-			UTF8("F11"), NSNum(103), // F11
-			UTF8("F12"), NSNum(111), // F12
-			UTF8("F13"), NSNum(105), // F13
-			UTF8("F14"), NSNum(107), // F14
-			UTF8("F15"), NSNum(113), // F15
-			UTF8("F16"), NSNum(106), // F16
-			UTF8("F17"), NSNum(64), // F17
-			UTF8("F18"), NSNum(79), // F18
-			UTF8("F19"), NSNum(80), // F19
-			UTF8("F20"), NSNum(90), // F20
-			UTF8("[space]"), NSNum(49), // space
+			UTF8("\xe2\x80\x8aᶠ¹\xe2\x80\x8a"), NSNum(122), // F1
+			UTF8("ᶠ²"), NSNum(120), // F2
+			UTF8("ᶠ³"), NSNum(99),  // F3
+			UTF8("ᶠ⁴"), NSNum(118), // F4
+			UTF8("ᶠ⁵"), NSNum(96),  // F5
+			UTF8("ᶠ⁶"), NSNum(97),  // F6
+			UTF8("ᶠ⁷"), NSNum(98),  // F7
+			UTF8("ᶠ⁸"), NSNum(100), // F8
+			UTF8("ᶠ⁹"), NSNum(101), // F9
+			UTF8("ᶠ¹⁰"), NSNum(109), // F10
+			UTF8("ᶠ¹¹"), NSNum(103), // F11
+			UTF8("ᶠ¹2"), NSNum(111), // F12
+			UTF8("ᶠ¹3"), NSNum(105), // F13
+			UTF8("ᶠ¹4"), NSNum(107), // F14
+			UTF8("ᶠ¹5"), NSNum(113), // F15
+			UTF8("ᶠ¹6"), NSNum(106), // F16
+			UTF8("ᶠ¹7"), NSNum(64), // F17
+			UTF8("ᶠ¹8"), NSNum(79), // F18
+			UTF8("\xe2\x80\x8aᶠ¹9"), NSNum(80), // F19
+			UTF8("\xe2\x80\x8aᶠ20"), NSNum(90), // F20
+			UTF8("\xe2\x80\x8a▃\xe2\x80\x8a"), NSNum(49), // space
 			nil];
 	}
 	return d;
