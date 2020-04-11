@@ -8,7 +8,7 @@ KeyCastr, an open-source keystroke visualizer.
 
 ## Download
 
- - [Download latest release](https://github.com/keycastr/keycastr/releases)
+ - [Download latest release](https://github.com/ollisulopuisto/keycastr/releases/latest)
 
 ## Installation via [homebrew](http://brew.sh/) [cask](https://github.com/caskroom/homebrew-cask)
 
