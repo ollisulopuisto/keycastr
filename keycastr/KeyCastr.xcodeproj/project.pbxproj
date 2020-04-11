@@ -746,7 +746,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = KeyCastr.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = LWSR8T5392;
@@ -768,6 +768,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 0.9.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.keycastr;
 				PRODUCT_NAME = KeyCastr;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -958,7 +959,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = KeyCastr.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = LWSR8T5392;
@@ -978,6 +979,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 0.9.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.keycastr;
 				PRODUCT_NAME = KeyCastr;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -991,10 +993,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = KeyCastr.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = LWSR8T5392;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1008,9 +1010,10 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 0.9.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.keycastr;
 				PRODUCT_NAME = KeyCastr;
-				PROVISIONING_PROFILE_SPECIFIER = "KeyCastr Developer ID";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
