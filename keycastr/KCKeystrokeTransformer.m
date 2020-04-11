@@ -108,7 +108,7 @@ static NSString* kLeftTabString = @"\xe2\x87\xa4";
 			UTF8("ᶠ¹8"), NSNum(79), // F18
 			UTF8("\xe2\x80\x8aᶠ¹9"), NSNum(80), // F19
 			UTF8("\xe2\x80\x8aᶠ20"), NSNum(90), // F20
-			UTF8("\xe2\x80\x8a▃\xe2\x80\x8a"), NSNum(49), // space
+			UTF8("\xe2\x80\x8a⎵\xe2\x80\x8a"), NSNum(49), // space
 			nil];
 	}
 	return d;
